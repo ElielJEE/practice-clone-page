@@ -1,0 +1,40 @@
+.button-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.button-content p {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 100px;
+    color: #eb6565;
+    cursor: default;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black, 5px 5px 1px #eb6565;
+}
+
+.button-content p:hover {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 100px;
+    color: #f48b75;
+    cursor: default;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black, 5px 5px 1px #000000;
+}
+
+.button-content button {
+    border-radius: 3px;
+    border: solid 1px black;
+    margin-bottom: 20px;
+    color: white;
+    background-color: tomato;
+    box-shadow: 3px 3px tomato;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-content button:active {
+    box-shadow: none;
+}

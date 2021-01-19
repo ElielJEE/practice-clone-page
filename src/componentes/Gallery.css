@@ -1,0 +1,102 @@
+.gallery-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 50px;
+    background-color:  #f48b75;
+}
+
+.header-gallery {
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.small {
+    font-size: 85%;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-top: 1px solid white;
+}
+
+hr {
+    max-width: 50px;
+    border-color: #ea6767;
+    border-width: 3px;
+}
+
+.slider {
+    width: 100%;
+    height: 400px;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 430px;
+    right: 90px;
+    font-size: 3rem;
+    color: #ffffff;
+    z-index: 2;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 430px;
+    left: 90px;
+    font-size: 3rem;
+    color: #ffffff;
+    z-index: 2;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slides-content {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.slides {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    transform: translateX(20%);
+}
+
+.slide {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 60%;
+    filter: blur(10px);
+    transform: scale(0.8);
+}
+
+.slide.active {
+    filter: none;
+    width: 60%;
+    transform: scale(1);
+}
+
+.image {
+    width: 80%;
+    box-shadow: 10px 10px #eb6565;
+    border-radius: 5px;
+}

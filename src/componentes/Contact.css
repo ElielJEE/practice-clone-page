@@ -1,0 +1,138 @@
+.contact {
+    width: 100%;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.contact-title {
+    margin: 30px 0 0 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-content {
+    padding: 0 16px 0 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-side1 {
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.contact-side1 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-side1 ul li {
+    margin-bottom: 10px;
+}
+
+.contact-side1 ul li a {
+    text-decoration: none;
+    color:  #ea6767;
+}
+
+.contact-side1 ul li a:hover {
+    text-decoration-line: underline;
+    color:  #ea6767;
+}
+
+.contact-side2 {
+    width: 50%;
+    float: right;
+}
+
+.form-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+#name {
+    margin: 0 15px 0 15px;
+    width: 50%;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: .375rem .75rem;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1rem;
+    outline: none;
+}
+
+#phone {
+    margin: 0 15px 0 15px;
+    width: 50%;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: .375rem .75rem;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1rem;
+    outline: none;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 90%;
+    margin: 0 15px 0 16px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: .375rem .75rem;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+#message {
+    margin: 0 15px 0 16px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: .375rem .75rem;
+    height: 100px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1rem;
+    outline: none;
+}
+
+.submit-btn {
+    margin: 0 15px 10px 16px;
+    width: 95%;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    padding: .375rem .75rem;
+    border-radius: 15px;
+    border: 1px solid #ea6767;
+    background-color: #ea6767;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.error-name {
+    width: 50%;
+    margin: 0 0 0 60px;
+    font-size: 18px;
+    color: #a94442;
+}
+
+.error-email {
+    text-align: center;
+    font-size: 18px;
+    color: #a94442;
+}

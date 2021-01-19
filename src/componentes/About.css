@@ -1,0 +1,22 @@
+.about-title {
+    font-family: 'Philosopher', sans-serif;
+    margin: 30px 0 0 0;
+}
+
+.about-title h1 {
+    text-align: center;
+}
+
+.about-content {
+    margin: 0 15px 0 15px;
+}
+.about-img {
+    width: 400px;
+    max-width: 100%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 5px;
+    height: 280px;
+    float: right;
+}
